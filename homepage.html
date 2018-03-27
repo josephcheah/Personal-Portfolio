@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+</head>
+<body class="background">
+    
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <div class="frontpage">
+    <span class="display">
+    <p class="josephcheah">josephcheah</p>
+    <p class="navigation">
+       <a href="file:///C:/Users/Joseph/Desktop/Joseph/Coding/Git/Personal%20Portfolio/Personal-Portfolio/homepage.html#services">Services</a> 
+       <a href="file:///C:/Users/Joseph/Desktop/Joseph/Coding/Git/Personal%20Portfolio/Personal-Portfolio/homepage.html#portfolio">Portfolio</a> 
+       <a href="file:///C:/Users/Joseph/Desktop/Joseph/Coding/Git/Personal%20Portfolio/Personal-Portfolio/homepage.html#about">About</a> 
+       <a href="file:///C:/Users/Joseph/Desktop/Joseph/Coding/Git/Personal%20Portfolio/Personal-Portfolio/homepage.html#contact">Contact</a>   
+     </p>
+</span>
+    <p class="intro">
+        Freelance UI / UX Web Designer.
+    </p>
+
+    <p class="intro-description">I create clean and functional online interfaces and interactions.<br>
+    Let's create something together! </p>
+</div>
+    <div class="line"></div>
+
+    <div>
+     <p class="heading" id="services">SERVICES</p>
+     <p class="heading-description">Helping you with design solutions</p>   
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">
+                <img src="C:\Users\Joseph\Desktop\Joseph\Coding\Git\Personal Portfolio\Personal-Portfolio\1084550-64.png" alt="user experience">
+            <p><b>User Experience Design</b><br><br></p>
+            <p>Thorough understanding of your users & how they interact with every element of your website creating the best overall experience.</p>
+        </div>
+        <div class="grid-item grid-item-2">
+                <img src="C:\Users\Joseph\Desktop\Joseph\Coding\Git\Personal Portfolio\Personal-Portfolio\1518233-48.png" alt="cellphone">
+            <p><b>Visual & User Interface Design</b><br><br></p>
+            <p>Visually stunning interfaces designed to guide your user through each interaction within your service or product.</p>
+        </div>
+    </div>
+    <div class="line"></div>
+    <p class="heading" id="portfolio">PORTFOLIO</p>
+    <p class="heading-description">Take a look at my previous projects!</p>
+    <div class="grid-portfolio-container">
+            <div class="grid-portfolio-item">
+                <img src="C:\Users\Joseph\Desktop\Joseph\Coding\Git\Personal Portfolio\Personal-Portfolio\coming-soon.jpg" alt="coming soon" width="100%">
+            </div>
+            <div class="grid-portfolio-item">
+                    <img src="C:\Users\Joseph\Desktop\Joseph\Coding\Git\Personal Portfolio\Personal-Portfolio\coming-soon.jpg" alt="coming soon" width="100%">
+            </div>
+        </div>
+        <div class="line"></div>
+    <p class="heading" id="about">ABOUT</p>
+<p class="heading-description">Hello there!</p>
+<p class="about-description">I'm Joseph, a freelance website designer based in Malaysia.
+    <br> I love creating new designs for your website.
+    <br> If you have any cool projects or opportunities, hit me up!
+</p>
+<div class="line"></div>
+    <p class="heading" id="contact">CONTACT</p>
+<p class="heading-description">Let's get in touch! I typically respond to your enquiry within 24 hours.</p>
+        <form class="contact-style"> Your Name <br>
+            <input type="text" id="fname" name="fname" class="name-form">
+          </form>
+          <form class="contact-style"> Your Email <br>
+            <input type="text" id="email" name="email" class="name-form">
+          </form>
+          <form class="contact-style"> Your Message <br>
+            <textarea id="message" name="message" class="message-form"></textarea>
+          </form>
+          <button type="submit" class="submit">SUBMIT</button>
+          
+
+          <script>
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        document.getElementById("myBtn").style.display = "block";
+                    } else {
+                        document.getElementById("myBtn").style.display = "none";
+                    }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+                </script>
+                
+
+</body>
+</html>
+
